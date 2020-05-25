@@ -252,7 +252,7 @@
                     cycle: {
                         y: (i, t) => t.classList.contains('column--bottom') ? columns[i].height + winsize.height * .2 : -1 * columns[i].height - winsize.height * .2
                     },
-                    //scaleX: 0.7,
+                    // scaleX: 0.7,
                     opacity: 0
                 }, columnsStagger, 0)
                 .to(columnsWrap, duration, {
@@ -342,7 +342,7 @@
                     y: 0,
                     x: 0,
                     //scaleX: 1,
-                    opacity: 1
+                    opacity: 0.1
                 }, 0.02, duration * 0.6)
                 .to(columnsWrap, duration, {
                     ease: ease,
