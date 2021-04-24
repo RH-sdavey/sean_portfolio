@@ -495,7 +495,7 @@
 	}
 	
 	.item__content-text {
-	    margin: 4vh 0 4rem 0;
+	    margin: 2vh 0 2rem 0;
 	    position: relative;
 	    line-height: 1.1;
 	    font-size: 1.1rem;
@@ -537,8 +537,10 @@
 	}
 	
 	.item__content-subpic {
-	    width: 8rem;
-	    height: 8rem;
+	    list-style-type: none;
+	    display: inline;
+	    width: 5rem;
+	    height: 5rem;
 	}
 	
 	progress[value] {
