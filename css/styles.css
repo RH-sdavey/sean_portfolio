@@ -95,6 +95,7 @@ hr {
   background-color: currentColor;
   border: 0;
   opacity: 0.25;
+  max-width: 50%;
 }
 
 hr:not([size]) {
@@ -237,7 +238,7 @@ sup {
 }
 
 a {
-  color: #bd5d38;
+  color:red;
   text-decoration: none;
 }
 a:hover {
@@ -7717,7 +7718,7 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  color: #fff !important;
 }
 
 .text-secondary {
@@ -7808,7 +7809,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #36454F !important;
 }
 
 .bg-secondary {
@@ -11364,6 +11365,12 @@ p.lead {
     max-height: 16rem;
     border: 0.2rem solid white;
   }
+
+  img.cert-img {
+    max-width: 7rem;
+    max-height: 7rem;
+  }
+
   #sideNav .navbar-collapse {
     display: flex;
     align-items: flex-start;
@@ -11403,6 +11410,23 @@ p.lead {
 
 .dev-icons {
   font-size: 3rem;
+}
+
+section.full-width-grey-bg {
+  max-width: 100%;
+  background-color: #36454F
+}
+
+.whited-grey-header {
+ color: #97999B
+}
+
+.whited-header {
+ color: #DADADA
+}
+
+.whited-p-text {
+ color: #97999B
 }
 
 section.resume-section {
